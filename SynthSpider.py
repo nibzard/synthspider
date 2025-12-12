@@ -93,7 +93,7 @@ azure_ef = embedding_functions.OpenAIEmbeddingFunction(
     api_base=azure_endpoint,
     api_type="azure",
     api_version=azure_api_version,
-    model_name="text-embedding-3-large",
+    model_name="text-embedding-3-small",
 )
 
 # Initialize ChromaDB Client
